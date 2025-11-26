@@ -9,6 +9,7 @@ import Products from "./components/Products";
 import Cart from "./components/Cart";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Review from "./components/Review";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Navbar />
           <Hero />
           <Products />
+          <Review />
           <Cart />
           <Contact />
           <Footer />

@@ -16,11 +16,14 @@ const Hero = () => {
       className="relative min-h-[80vh] flex items-center overflow-hidden"
     >
       {/* Gradient Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-orange-500 via-pink-500 to-orange-600" />
+{/* Gradient Background */}
+<div className="absolute inset-0 bg-gradient-to-br from-orange-500 via-pink-500 to-orange-600 animated-gradient" />
+
 
       {/* Decorative Elements */}
-      <div className="absolute top-20 left-10 w-32 h-32 bg-white/10 rounded-full blur-3xl" />
-      <div className="absolute bottom-20 right-10 w-48 h-48 bg-white/10 rounded-full blur-3xl" />
+      <div className="absolute top-20 left-10 w-32 h-32 bg-white/10 rounded-full blur-3xl float-slow" />
+<div className="absolute bottom-20 right-10 w-48 h-48 bg-white/10 rounded-full blur-3xl float-slow" />
+
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20 lg:py-24">
         <div className="grid md:grid-cols-2 gap-10 lg:gap-16 items-center">
@@ -34,13 +37,12 @@ const Hero = () => {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-              Glamorous Nails
-              <span className="block mt-2">In Seconds</span>
+              Love Your Nails, 
+              <span className="block mt-2">Love the Ease</span>
             </h1>
 
             <p className="text-base md:text-lg lg:text-xl text-white/90 leading-relaxed max-w-xl">
-              Transform your look instantly with our premium stick-on nails.
-              Salon-quality designs that last for weeks, no appointment needed.
+              PRESS.HOLD.SLAY
             </p>
 
             <div className="flex flex-wrap gap-4">
